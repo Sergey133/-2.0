@@ -24,5 +24,12 @@ namespace Марафон11
             this.Hide();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Skiks Main = new Skiks();
+            Main.Show();
+            this.Hide();
+        }
     }
 }
