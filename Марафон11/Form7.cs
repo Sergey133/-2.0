@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace Марафон11
 {
@@ -33,7 +34,7 @@ namespace Марафон11
             int login = 0;
             string role = "";
             using (SqlConnection conn = new
-            SqlConnection(Maraphon.Properties.Settings.Default.WSR123ConnectionString))
+            SqlConnection(Марафон11.Properties.Settings.Default.MaraphonConnectionString))
             {
                 conn.Open();
                 SqlCommand cmd = conn.CreateCommand();
@@ -56,7 +57,7 @@ namespace Марафон11
             }
             if (login == 1)
             {
-                File.WriteAllText("Resources/login.txt", textBox1.Text);
+                File.WriteAllText("C://login.txt", textBox1.Text);
                 if (role == "R")
                 {
                     Runner Runner = new Runner();

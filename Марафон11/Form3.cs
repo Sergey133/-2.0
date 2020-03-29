@@ -13,9 +13,9 @@ using System.IO;
 
 namespace Марафон11
 {
-    public partial class Form3 : Form
+    public partial class Runner : Form
     {
-        public Form3()
+        public Runner()
         {
             InitializeComponent();
         }

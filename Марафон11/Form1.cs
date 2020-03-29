@@ -44,5 +44,12 @@ namespace Марафон11
             this.Hide();
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
     }
 }
