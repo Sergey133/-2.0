@@ -51,5 +51,19 @@ namespace Марафон11
             login.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Sponsor Sponsor = new Sponsor();
+            Sponsor.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 Runner1 = new Form3();
+            Runner1.Show();
+            this.Hide();
+        }
     }
 }

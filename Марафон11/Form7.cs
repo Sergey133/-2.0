@@ -60,7 +60,7 @@ namespace Марафон11
                 File.WriteAllText("C://login.txt", textBox1.Text);
                 if (role == "R")
                 {
-                    Runner Runner = new Runner();
+                    Form3 Runner = new Form3();
                     Runner.Show();
                     this.Hide();
                 }
@@ -88,6 +88,13 @@ namespace Марафон11
                 MessageBox.Show("Не правильный логин/пароль.");
             }
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Hide();
         }
     }
 }

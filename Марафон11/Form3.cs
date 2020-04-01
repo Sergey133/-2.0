@@ -13,9 +13,9 @@ using System.IO;
 
 namespace Марафон11
 {
-    public partial class Runner : Form
+    public partial class Form3 : Form
     {
-        public Runner()
+        public Form3()
         {
             InitializeComponent();
         }
@@ -44,6 +44,11 @@ namespace Марафон11
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Runner_Load(object sender, EventArgs e)
         {
 
         }

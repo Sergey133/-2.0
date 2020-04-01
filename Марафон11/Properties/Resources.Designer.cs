@@ -63,6 +63,16 @@ namespace Марафон11.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap question_mark_computer_icons_others {
+            get {
+                object obj = ResourceManager.GetObject("question-mark-computer-icons-others", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap super_ua_1527134203 {
             get {
                 object obj = ResourceManager.GetObject("super.ua-1527134203", resourceCulture);
