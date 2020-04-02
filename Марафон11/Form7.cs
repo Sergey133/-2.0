@@ -96,5 +96,10 @@ namespace Марафон11
             main.Show();
             this.Hide();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

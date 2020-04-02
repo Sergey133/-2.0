@@ -31,5 +31,10 @@ namespace Марафон11
             Main.Show();
             this.Hide();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
