@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Марафон11
 {
-    public partial class Form8 : Form
+    public partial class Runner : Form
     {
-        public Form8()
+        public Runner()
         {
             InitializeComponent();
         }

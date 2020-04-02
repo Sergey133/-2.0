@@ -1,6 +1,6 @@
 ﻿namespace Марафон11
 {
-    partial class Form8
+    partial class Runner
     {
         /// <summary>
         /// Required designer variable.
@@ -108,7 +108,7 @@
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             // 
-            // Form8
+            // Runner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -120,7 +120,7 @@
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form8";
+            this.Name = "Runner";
             this.Text = "Marathon Skills 2020 - Register as a runner";
             this.Load += new System.EventHandler(this.Form8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
